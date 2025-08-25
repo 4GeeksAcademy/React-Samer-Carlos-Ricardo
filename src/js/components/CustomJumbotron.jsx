@@ -1,19 +1,37 @@
+
 import React from 'react';
 
 const CustomJumbotron = () => {
   return (
-    <div className="bg-light py-5 px-4 rounded mx-3 my-4">
-      <div className="container">
+    <div 
+      className="bg-image rounded mx-3 my-4 d-flex align-items-center position-relative"
+      style={{
+        backgroundImage: "url('https://images2.alphacoders.com/870/870882.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '45vh'
+      }}
+    >
+      {/* Overlay para oscurecer la imagen de fondo */}
+      <div 
+        className="position-absolute top-0 start-0 w-100 h-100 rounded"
+        style={{
+          backgroundColor: 'rgba(0, 0, 0, 0.4)',
+          zIndex: 1
+        }}
+      ></div>
+      
+      {/* Contenido del texto */}
+      <div className="container position-relative" style={{zIndex: 2}}>
         <div className="text-start">
-          <h1 className="display-4 fw-light text-dark mb-4">
-            A Warm Welcome!
+          <h1 className="display-4 fw-light text-white mb-4" style={{textShadow: '3px 3px 6px rgba(0,0,0,0.9)'}}>
+            GameShop - Tu Tienda Gamer
           </h1>
-          <p className="lead text-muted mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid 
-            similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
-          </p>
-          <button className="btn btn-primary btn-lg">
-            Call to action!
+          <h3 className="lead text-light mb-4" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.9)'}}>
+            Descubre los mejores videojuegos al mejor precio. Desde los últimos lanzamientos hasta los clásicos más queridos, tenemos todo lo que necesitas para vivir aventuras épicas. ¡Tu próximo juego favorito te está esperando!
+          </h3>
+          <button className="btn btn-primary btn-lg shadow-lg">
+            A jugar!!!
           </button>
         </div>
       </div>
