@@ -4,7 +4,7 @@ import React from 'react';
 const CustomJumbotron = () => {
   return (
     <div 
-      className="bg-image rounded mx-3 my-4 d-flex align-items-center position-relative"
+      className="bg-image rounded my-3 d-flex align-items-center position-relative"
       style={{
         backgroundImage: "url('https://images2.alphacoders.com/870/870882.jpg')",
         backgroundSize: 'cover',
