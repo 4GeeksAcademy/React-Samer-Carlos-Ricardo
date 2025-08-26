@@ -7,7 +7,7 @@ export function CustomCard() {
 
   return (
     <div className="card-group">
-      <div className="card">
+      <div className="card  mx-2">
         <img
           src="https://i.blogs.es/juegos/16215/xbox_scarlett/fotos/noticias/xbox_scarlett-5207432.jpg"
           className="card-img-top"
@@ -36,7 +36,7 @@ export function CustomCard() {
         </div>
       </div>
 
-      <div className="card">
+      <div className="card  mx-2">
         <img
           src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/02/mario-kart-8-deluxe-caratula.jpg?tf=384x"
           className="card-img-top"
@@ -67,7 +67,7 @@ export function CustomCard() {
           </button>
         </div>
       </div>
-      <div className="card">
+      <div className="card  mx-2">
         <img
           src="https://i.3djuegos.com/juegos/11043/the_master_chief_collection/fotos/ficha/the_master_chief_collection-2548530.webp"
           className="card-img-top"
@@ -95,7 +95,7 @@ export function CustomCard() {
           </button>
         </div>
       </div>
-      <div className="card">
+      <div className="card  mx-2">
         <img
           src="https://preview.redd.it/cod-the-last-three-games-have-all-had-great-cover-arts-v0-33p4r7lm1s8b1.png?width=640&crop=smart&auto=webp&s=34f70f92214d3ae9b4ec4d701260ad2764370efb"
           className="card-img-top"
