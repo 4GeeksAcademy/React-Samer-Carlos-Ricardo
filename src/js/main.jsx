@@ -13,10 +13,12 @@ import Home from "./components/Home";
 import CustomJumbotron from "./components/CustomJumbotron";
 import { CustomCard } from "./components/CustomCard";
 import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Navbar></Navbar>
     <CustomJumbotron />
     <CustomCard></CustomCard>
+    <Footer></Footer>
   </React.StrictMode>
 );
