@@ -1,8 +1,7 @@
-// Al inicio del archivo, después de los imports de React
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-export function Navbar() {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+
+export function Navbar(){
+
+    return   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Gamer Store
